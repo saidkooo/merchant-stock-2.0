@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Spring blush';
+    src: url('Springblush-Solid.eot');
+    src: local('Spring blush Solid'), local('Springblush-Solid'),
+        url('Springblush-Solid.eot?#iefix') format('embedded-opentype'),
+        url('Springblush-Solid.woff2') format('woff2'),
+        url('Springblush-Solid.woff') format('woff'),
+        url('Springblush-Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spring blush';
+    src: url('Springblush-Svg.eot');
+    src: local('Spring blush Svg'), local('Springblush-Svg'),
+        url('Springblush-Svg.eot?#iefix') format('embedded-opentype'),
+        url('Springblush-Svg.woff2') format('woff2'),
+        url('Springblush-Svg.woff') format('woff'),
+        url('Springblush-Svg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spring blush';
+    src: url('Springblush-Solid_1.eot');
+    src: local('Spring blush Solid'), local('Springblush-Solid'),
+        url('Springblush-Solid_1.eot?#iefix') format('embedded-opentype'),
+        url('Springblush-Solid_1.woff2') format('woff2'),
+        url('Springblush-Solid_1.woff') format('woff'),
+        url('Springblush-Solid_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
