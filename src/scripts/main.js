@@ -95,7 +95,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('#desktop-send').click(function(){
+    $('#send').click(function(){
         // собираем данные с формы
         let user_name    = $('#name').val();
         let user_email   = $('#email').val();
@@ -108,7 +108,7 @@ $(document).ready(function(){
             data: {
                 "name":    user_name,
                 "email":   user_email,
-                "phone": user_tel,
+                //"phone": user_tel,
                 "message": text_comment
             },
             error:function(){$("#erconts").html("Произошла ошибка!"); displayErrorModal();},
@@ -118,7 +118,7 @@ $(document).ready(function(){
                 // $('#tel-desktop').val('');
                 $('#email').val('');
                 $('#message').val('');
-                
+                displaySuccessModal();
             }
         });
     });

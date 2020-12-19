@@ -379,7 +379,7 @@
         <div class="container contacts" id="contacts">
             <h2 class="title">Контакты</h2>
             <div class="contacts__block">
-                <form action="" method="POST" action="" class="contacts__block__form">
+                <form method="POST" action="./src/scripts/contact.php" class="contacts__block__form">
                     <input type="text" id="name" placeholder="Имя">
                     <input type="email" id="email" placeholder="E-mail">
                     <textarea name="" id="message" cols="30" rows="1" placeholder="Соблаговалите письмо"></textarea>
@@ -486,6 +486,23 @@
             </div>
         </div>
     </footer>
+    <div class="success-modal">
+        <div class="success-modal__block">
+            <div class="success-modal__close" onclick="closeSuccessModal()">&#10006;</div>
+            <p class="success-modal__title">Отправленно</p>
+            <p class="success-modal__text">Спасибо, заявка уже у нас.<br>Скоро выйдем на связь</p>
+            <button class="success-modal__button" onclick="closeSuccessModal()">Затворить</button>
+        </div>
+    </div>
+    <div class="error-modal">
+        <div class="error-modal__block">
+            <div class="error-modal__close" onclick="closeErrorModal()">&#10006;</div>
+            <p class="error-modal__title">Ошибка</p>
+            <p class="error-modal__text">Попробуйте ещё раз</p>
+            <button class="error-modal__button" onclick="closeErrorModal()">Затворить</button>
+        </div>
+    </div>
+
     <script src="./src/scripts/jquery-3.5.1.min.js"></script>
     <script src="./src/scripts/slick.min.js"></script>
     <script src="./src/scripts/main.js"></script>

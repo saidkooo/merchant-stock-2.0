@@ -397,6 +397,7 @@ a {
     color: #DF6D4A;
     font-size: 2.4rem;
     font-family: 'EB Garamond', serif;
+    outline: none;
 }
 .contacts__block__form button:hover {
     cursor: pointer;
@@ -492,7 +493,63 @@ footer {
 .saftech-logo a:hover{
     text-decoration: none;
 }
-
+.success-modal,  .error-modal{
+    padding-top: 200px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: scroll;
+    z-index: 100;
+    vertical-align: middle;
+}
+.success-modal.open,  .error-modal.open{
+    opacity: 1;
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+    visibility: visible;
+}
+.success-modal__block, .error-modal__block {
+    padding: 30px 30px 80px;
+    margin: 0 auto;
+    max-width: 360px;
+    background: #F2EDE1;
+    text-align: center;
+}
+.success-modal__title, .error-modal__title {
+    margin-top: 30px;
+    font-family: "Monomakh Unicode TT";
+    font-size: 5.5rem;
+}
+.success-modal__text, .error-modal__text {
+    font-size: 1.6rem;
+}
+.success-modal__button, .error-modal__button {
+    padding: 10px 40px 15px;
+    margin-top: 60px;
+    width: 270px;
+    background: none;
+    border: solid 1px #DF6D4A;
+    color: #DF6D4A;
+    font-size: 2.4rem;
+    font-family: 'EB Garamond', serif;
+}
+.success-modal__button:hover, .error-modal__button:hover {
+    cursor: pointer;
+    color: #353030;
+    border: solid 1px #353030;
+}
+.success-modal__close, .error-modal__close {
+    font-size: 2rem;
+    text-align: right;
+    cursor: pointer;
+    color: #DF6D4A;
+}
 @media(max-width: 768px) {
     .container {
         max-width: 90%;
