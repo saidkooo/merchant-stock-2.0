@@ -618,10 +618,16 @@ footer {
         display: block;
     }
     .procents {
-        position: relative;
+        position: relative; 
+        font-size: 2.4rem;
+    }
+    .procents span {
+        font-size: 3rem;
+        width: 80px;
     }
     .procents p:last-child {
         margin-top: 10px;
+        margin-left: 240px;
     }
     .about-us__block {
         flex-direction: column;
