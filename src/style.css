@@ -852,6 +852,7 @@ footer {
     }
     .procents span {
         font-size: 3rem;
+        width: 75px;
     }
     .procents p {
         margin-top: 15px;
